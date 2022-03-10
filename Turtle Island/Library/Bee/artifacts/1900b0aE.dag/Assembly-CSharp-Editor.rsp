@@ -105,7 +105,8 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
--define:ENABLE_LEGACY_INPUT_MANAGER
+-define:ENABLE_INPUT_SYSTEM
+-define:STARTER_ASSETS_PACKAGES_CHECKED
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
@@ -318,6 +319,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.cinemachine.editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/StylizedWaterForURP.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/StylizedWaterForURPEditor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -351,6 +353,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/Asset_Store/StarterAssets/Editor/PackageChecker/PackageChecker.cs"
+"Assets/Asset_Store/StarterAssets/Editor/ScriptingDefineUtils.cs"
+"Assets/Asset_Store/StarterAssets/Editor/StarterAssetsDeployMenu.cs"
+"Assets/Asset_Store/StarterAssets/Editor/ThirdPersonStarterAssetsDeployMenu.cs"
 "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
 -langversion:8.0
 

@@ -105,7 +105,8 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
--define:ENABLE_LEGACY_INPUT_MANAGER
+-define:ENABLE_INPUT_SYSTEM
+-define:STARTER_ASSETS_PACKAGES_CHECKED
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -308,6 +309,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.cinemachine.editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/StylizedWaterForURP.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/StylizedWaterForURPEditor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -339,8 +341,17 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/Asset_Store/StarterAssets/InputSystem/StarterAssetsInputs.cs"
+"Assets/Asset_Store/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs"
+"Assets/Asset_Store/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs"
+"Assets/Asset_Store/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs"
+"Assets/Asset_Store/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs"
+"Assets/Asset_Store/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs"
+"Assets/Asset_Store/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs"
+"Assets/Asset_Store/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs"
 "Assets/Asset_Store/Stylized Water For URP/Demos/Buoyancy/BuoyantObject.cs"
 "Assets/Asset_Store/Stylized Water For URP/Demos/Buoyancy/GerstnerWaveDisplacement.cs"
+"Assets/Scripts/NPC.cs"
 "Assets/Scripts/ThirdPersonMovement.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:8.0
