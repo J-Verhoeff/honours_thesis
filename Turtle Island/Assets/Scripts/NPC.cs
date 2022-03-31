@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NPC : MonoBehaviour {
     [Header("General Settings")]
     [SerializeField] private GameManager manager;
-    [SerializeField] private Interact playerInteract; 
+    [SerializeField] private Interact playerInteract;
+    [SerializeField] private string activitySceneName = "";
 
     [Header("NPC Settings")]
     [SerializeField] private GameObject player;
@@ -33,13 +35,16 @@ public class NPC : MonoBehaviour {
     }
 
     private void OnTriggerStay(Collider other) {
-        if(other.CompareTag("Player") && playerInteract.interact && !isChatting && !chatPause && manager.currentNPC == null) {
-            manager.hideButtons();
-            manager.displayChatbox(dialogue[currentIndex]);
-            manager.currentNPC = gameObject;
-            isChatting = true;
-            //Debug.Log("Trigger");
-            StartCoroutine("ChatDelay", chatDelay);
+        if (other.CompareTag("Player")) {
+            manager.setPrompt("Press Q to talk");
+            if (playerInteract.interact && !isChatting && !chatPause) {
+                manager.hideButtons();
+                manager.displayChatbox(dialogue[currentIndex]);
+                manager.currentNPC = gameObject;
+                isChatting = true;
+                //Debug.Log("Trigger");
+                StartCoroutine("ChatDelay", chatDelay);
+            }
         }
     }
 
@@ -48,6 +53,7 @@ public class NPC : MonoBehaviour {
             currentIndex = 0;            
             manager.hideChatBox();
             isChatting = false;
+            manager.hidePrompt();
         }
     }
 
@@ -75,7 +81,7 @@ public class NPC : MonoBehaviour {
     }
 
     public void StartActivity() {
-        Debug.Log("Start Activity");
+        StartCoroutine("LoadSceneAsync", activitySceneName);
     }
 
     public void DisplayActivityInstructions() {
@@ -83,6 +89,18 @@ public class NPC : MonoBehaviour {
     }
 
     public void CancelActivity() {
-        Debug.Log("Canceled Activity");
+        //Debug.Log("Canceled Activity");
+        Cursor.lockState = CursorLockMode.Locked;
+        manager.hideChatBox();
+        isChatting = false;
+        player.GetComponent<StarterAssets.ThirdPersonController>().LockCameraPosition = false;
+        StartCoroutine("ChatDelay", chatDelay);
+    }
+
+    IEnumerator LoadSceneAsync(string sceneName) {
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
+        while(!asyncLoad.isDone) {
+            yield return null;
+        }
     }
 }
