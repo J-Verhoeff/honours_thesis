@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour {
 
     public GameObject currentNPC = null;
 
+
     private void Start() {
         buttons.SetActive(false);
         chatBox.SetActive(false);

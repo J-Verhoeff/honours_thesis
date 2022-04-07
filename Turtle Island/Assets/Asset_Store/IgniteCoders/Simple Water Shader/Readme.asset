@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d8731017ebcc0944870aa577e49f1eb, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 7801804018a7dcf42abb827444e18660, type: 3}
+  title: Simple Water Shader
+  sections:
+  - heading: Simple Water Shader
+    text: This asset simulates a simple water using the Universal Render Pipeline
+      (URP) and Shader Graph.
+    linkText: 
+    url: 
+  - heading: 
+    text: You can change colors, transparency, displacement... etc.
+    linkText: 
+    url: 
+  - heading: 
+    text: There
+    linkText: 
+    url: 
+  loadedLayout: 1

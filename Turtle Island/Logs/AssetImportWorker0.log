@@ -15,11 +15,11 @@ D:/Honours_Thesis/honours_thesis/Turtle Island
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58691
+59110
 Successfully changed project path to: D:/Honours_Thesis/honours_thesis/Turtle Island
 D:/Honours_Thesis/honours_thesis/Turtle Island
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 104.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 110.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.26f1 (6f076387c01d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,91 +35,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002045 seconds.
+Registered in 0.002009 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 116.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 107.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.205 seconds
+- Completed reload, in  1.176 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1206ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (1176ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (486ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (440ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (148ms)
+			SetupTypeCache (135ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (259ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (240ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (117ms)
+				RefreshPlugins (107ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (108ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005874 seconds.
+Registered in 0.005240 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 107.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 112.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.492 seconds
+- Completed reload, in  2.087 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1492ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (2087ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1307ms)
-			LoadAssemblies (91ms)
+		EndReloadAssembly (1903ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (324ms)
+			SetupTypeCache (329ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (771ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1361ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (108ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (559ms)
+				RefreshPlugins (704ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (553ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5060 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.8 MB.
-System memory in use after: 209.2 MB.
+Unloading 5063 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 209.8 MB.
+System memory in use after: 210.1 MB.
 
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 5523.
-Total: 3.681300 ms (FindLiveObjects: 0.342500 ms CreateObjectMapping: 0.250900 ms MarkObjects: 2.992400 ms  DeleteObjects: 0.094900 ms)
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 5526.
+Total: 3.437500 ms (FindLiveObjects: 0.333800 ms CreateObjectMapping: 0.225900 ms MarkObjects: 2.782000 ms  DeleteObjects: 0.095000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,1357 +133,109 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Island.scenetemplate
-  artifactKey: Guid(6d0f82cdbb325e34ba7aee1a3f9f4c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Island.scenetemplate using Guid(6d0f82cdbb325e34ba7aee1a3f9f4c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PP_Birch_Tree_05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree PP_Birch_Tree_06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree PP_Tree_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree PP_Tree_10 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
- -> (artifact id: '67ed87025544a9f3a05dbed4cda2fa7f') in 0.372739 seconds 
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/FishV1.fbx
+  artifactKey: Guid(38f74cd884cda8242b4fdc167c4962f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/FishV1.fbx using Guid(38f74cd884cda8242b4fdc167c4962f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654ec0747f8544cf851a92d335421c3d') in 0.229609 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.059680 seconds.
-  path: Assets/Scenes/Fishing
-  artifactKey: Guid(320e7bc608e3aa140a55f3ceab5d3eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing using Guid(320e7bc608e3aa140a55f3ceab5d3eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec37616825c3e94dd05ea9ff4b48457f') in 0.001530 seconds 
+  Time since last request: 0.000201 seconds.
+  path: Assets/Asset_Store/Alstra Infinite
+  artifactKey: Guid(38ddc16d4f461544da2f473d3e9f33c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite using Guid(38ddc16d4f461544da2f473d3e9f33c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43c749a80373118973250477cf779a2') in 0.001548 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.067439 seconds.
-  path: Assets/Scenes/Fishing/AttackBite.fbx
-  artifactKey: Guid(939977742fb440d40878302df3eef4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/AttackBite.fbx using Guid(939977742fb440d40878302df3eef4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de2b5cae8c745c8770bbaa5d6f45c38') in 0.050241 seconds 
+  Time since last request: 0.000203 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/FishV2.fbx
+  artifactKey: Guid(a8fd0d08c30426d4c978a4998752cf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/FishV2.fbx using Guid(a8fd0d08c30426d4c978a4998752cf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd319ef696e4f3b20749a3f2372a5b28') in 0.063581 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Scenes/Fishing/GetHitRight.fbx
-  artifactKey: Guid(b6d548dbb9ccf114d94d8534fbe2a5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/GetHitRight.fbx using Guid(b6d548dbb9ccf114d94d8534fbe2a5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb18b1d7f3dc1a44c7e9284dfc7bcd0') in 0.003873 seconds 
+  Time since last request: 0.000244 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack
+  artifactKey: Guid(63843d432823297479039cac99914d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack using Guid(63843d432823297479039cac99914d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4288ae4867494cc0da8a121a56e96ab8') in 0.001843 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Scenes/Fishing/Indian kanoe A Body.mat
-  artifactKey: Guid(9b0b64d9f25e9664e9ccdfeb2c4237a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Indian kanoe A Body.mat using Guid(9b0b64d9f25e9664e9ccdfeb2c4237a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ea66f0a82f81bd37533e11307aa843') in 11.929700 seconds 
+  Time since last request: 0.000341 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/FishV4.fbx
+  artifactKey: Guid(ea93ead513f04c9478f78e3f40ba5b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/FishV4.fbx using Guid(ea93ead513f04c9478f78e3f40ba5b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4461da8b5dc1924cc9bf154dfb75ccd0') in 0.018415 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Scenes/Fishing/TurtleMat.mat
-  artifactKey: Guid(227f23c0b9a1eb8489be68bb3b31be39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/TurtleMat.mat using Guid(227f23c0b9a1eb8489be68bb3b31be39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979ff506cccedf5b0b7d322ee90d5b33') in 0.019839 seconds 
+  Time since last request: 0.000194 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models
+  artifactKey: Guid(4d073f0bbc4f46d47a6ceba6153c07dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models using Guid(4d073f0bbc4f46d47a6ceba6153c07dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb68476f0a3abcb3ff5c5d52b5aebd05') in 0.015667 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000183 seconds.
-  path: Assets/Scenes/Fishing/Depth Fade.shadersubgraph
-  artifactKey: Guid(df52f889d1c517d4e8e16089e05a9d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Depth Fade.shadersubgraph using Guid(df52f889d1c517d4e8e16089e05a9d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41522a3f2d02061d57a847065ad3410') in 0.004091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Scenes/Fishing/Island.asset
-  artifactKey: Guid(bba4693c5c071324ca8f5ff662e247b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Island.asset using Guid(bba4693c5c071324ca8f5ff662e247b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PP_Birch_Tree_05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree PP_Birch_Tree_06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree PP_Tree_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree PP_Tree_10 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
- -> (artifact id: 'eb4f31fbc0a76460f08ebe91c5bbfa29') in 0.024280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Scenes/Fishing/LiberationSans SDF.asset
-  artifactKey: Guid(282705dd27bfd4d448e67d52360e2458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/LiberationSans SDF.asset using Guid(282705dd27bfd4d448e67d52360e2458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8652e7897f998b4fe43c9e48f35b5a5') in 0.035069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Scenes/Fishing/Mobile Depth Fade.shadersubgraph
-  artifactKey: Guid(9f1bbab04887de444b27553b30234582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Mobile Depth Fade.shadersubgraph using Guid(9f1bbab04887de444b27553b30234582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7602798dd2e937c7b564ee6b69c07f0') in 0.002291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Scenes/Fishing/GetHitDown.fbx
-  artifactKey: Guid(dea8df0b792f3534ca359bfe454136d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/GetHitDown.fbx using Guid(dea8df0b792f3534ca359bfe454136d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c319a40957eeff649c779c888be90e') in 0.004517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Scenes/Fishing/Indian kanoe A.prefab
-  artifactKey: Guid(90908848b1fe390489105f7f9bc3b00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Indian kanoe A.prefab using Guid(90908848b1fe390489105f7f9bc3b00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac1f308f079fe6a6e6f20ca33d85aeb') in 0.049981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Scenes/Fishing/Rocks.mat
-  artifactKey: Guid(42539b53cdee9834a9ce53c45cbc1f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Rocks.mat using Guid(42539b53cdee9834a9ce53c45cbc1f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539636378df98e2df73fd15b839301d5') in 0.008755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Scenes/Fishing/Lit.mat
-  artifactKey: Guid(bb8c81b308054d4419aba5f3fd30d4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Lit.mat using Guid(bb8c81b308054d4419aba5f3fd30d4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9cd04b8ee12acf724e5dc66cf10202') in 0.006868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Scenes/Fishing/Locomotion--Run_N_Land.anim.fbx
-  artifactKey: Guid(934c28392b50c7449b272e8b33ac41a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Locomotion--Run_N_Land.anim.fbx using Guid(934c28392b50c7449b272e8b33ac41a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d039973fa012a2cb10daa95e87d223') in 0.005676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Scenes/Fishing.unity
-  artifactKey: Guid(7df5b0d7b971ed8488589b2cec75060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing.unity using Guid(7df5b0d7b971ed8488589b2cec75060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a74ab3e7515542af83519246795d43') in 0.002189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Scenes/Fishing/Dead.fbx
-  artifactKey: Guid(c35361a88b81c6042bd3ac86362696fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Dead.fbx using Guid(c35361a88b81c6042bd3ac86362696fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21003df6eab7f832163a374fd4e61464') in 0.004157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Scenes/Fishing/Scene Position.shadersubgraph
-  artifactKey: Guid(39da672ec477773439995a1f2f43b886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Scene Position.shadersubgraph using Guid(39da672ec477773439995a1f2f43b886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b7044c12a9a51376a82f44aed28ce2') in 0.002411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Scenes/Fishing/TurtleMatRed.mat
-  artifactKey: Guid(a48a042dd8dff6b478bd6f9c9f05ce35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/TurtleMatRed.mat using Guid(a48a042dd8dff6b478bd6f9c9f05ce35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9713c0cf1820e2923ee079aeb8ea3492') in 0.016968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Scenes/Fishing/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(a1033f6cddc2cf04e9d4e8e9374d91e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/LiberationSans SDF - Drop Shadow.mat using Guid(a1033f6cddc2cf04e9d4e8e9374d91e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5952893a56933c6f68309a3dd86d52') in 0.022049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Scenes/Fishing/Mobile Refract UV.shadersubgraph
-  artifactKey: Guid(2bc5457263ccb094cb967a50bcb41293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Mobile Refract UV.shadersubgraph using Guid(2bc5457263ccb094cb967a50bcb41293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3aee5d895666c5af9123336ea21840') in 0.002182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Scenes/Fishing/PlayerFollowCamera.prefab
-  artifactKey: Guid(1c0cd414d86bc704591bc0ac61384685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/PlayerFollowCamera.prefab using Guid(1c0cd414d86bc704591bc0ac61384685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5de433b3204b114898e7604f72a7e4') in 0.003246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Scenes/Fishing/Stone_Layer.terrainlayer
-  artifactKey: Guid(164aba8beb8e3984ab09bfce606b2afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Stone_Layer.terrainlayer using Guid(164aba8beb8e3984ab09bfce606b2afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd288113695a0ee68e518c1f3fb315be7') in 0.018996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Scenes/Fishing/PP_Birch_Tree_05.prefab
-  artifactKey: Guid(8db16cc2baed56149a9f7d49e86a8eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/PP_Birch_Tree_05.prefab using Guid(8db16cc2baed56149a9f7d49e86a8eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c58426a0179c33f60c8489f7ca5c940') in 0.008441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Scenes/Fishing/TerrainLit.mat
-  artifactKey: Guid(cdf6d8fc47d79914bbc53e31f7e20c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/TerrainLit.mat using Guid(cdf6d8fc47d79914bbc53e31f7e20c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9e385addb0d78c059bd8f2e3d37eae') in 0.007615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Scenes/Fishing/Locomotion--Walk_N.anim.fbx
-  artifactKey: Guid(272dd7eca3104df4fa227883be6c46b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Locomotion--Walk_N.anim.fbx using Guid(272dd7eca3104df4fa227883be6c46b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d65adb6b7eef4b236041af77aa9158a') in 0.005694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Scenes/Fishing/Hide.fbx
-  artifactKey: Guid(811690f950b3d2347a8088ef283e21c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Hide.fbx using Guid(811690f950b3d2347a8088ef283e21c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b17d1b198e04c33ac51f498fe5f62e') in 0.004747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Scenes/Fishing/Mobile Surface Foam.shadersubgraph
-  artifactKey: Guid(75f9832aa1d6f15439db345221ec64e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Mobile Surface Foam.shadersubgraph using Guid(75f9832aa1d6f15439db345221ec64e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c3f551dfbd334afb39e10288ae142b') in 0.002165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Scenes/Fishing/StarterAssets.inputactions
-  artifactKey: Guid(de958ef173f98264d80ea074563e9072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/StarterAssets.inputactions using Guid(de958ef173f98264d80ea074563e9072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd77b40a6a6991c0cf5a4ad3958a69f4') in 0.004569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Scenes/Fishing/Player.prefab
-  artifactKey: Guid(26f87bddf8b2fcf42a10bd6718363829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Player.prefab using Guid(26f87bddf8b2fcf42a10bd6718363829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07616b3cc1268de4710fa0294ece7706') in 0.024729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Scenes/Fishing/Stone_Layer_2.terrainlayer
-  artifactKey: Guid(8d9ca7bfa02fc9a4eb47f3d02106f17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Stone_Layer_2.terrainlayer using Guid(8d9ca7bfa02fc9a4eb47f3d02106f17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76a99b3dbbab5abd415006dee5ca73d') in 0.009135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Scenes/Fishing/Waves.shadersubgraph
-  artifactKey: Guid(9afea2d99a68a9340b73b781a452bc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Waves.shadersubgraph using Guid(9afea2d99a68a9340b73b781a452bc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61532ec1af14cec0939466535cd73171') in 0.002150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Scenes/Fishing/Road_Layer.terrainlayer
-  artifactKey: Guid(05a06e7a6eb785a47be09f071872270c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Road_Layer.terrainlayer using Guid(05a06e7a6eb785a47be09f071872270c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d6d01cac0c2cba5cfe6c81244b2ca0') in 0.009251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Scenes/Fishing/Shore Color.shadersubgraph
-  artifactKey: Guid(d4ed3c7d902dc384d94b6ca337668cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Shore Color.shadersubgraph using Guid(d4ed3c7d902dc384d94b6ca337668cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfe2d4ccf3733e7c91328ee757e3442') in 0.002228 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Scenes/Fishing/PP_Birch_Tree_06.prefab
-  artifactKey: Guid(57c407a53b32d814ba3668213086915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/PP_Birch_Tree_06.prefab using Guid(57c407a53b32d814ba3668213086915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db10e0f19c108809bef89fd7d76d1ba6') in 0.006065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Scenes/Fishing/LiberationSans.ttf
-  artifactKey: Guid(c591aa1bb34d0a64b8b4bfc78d2df887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/LiberationSans.ttf using Guid(c591aa1bb34d0a64b8b4bfc78d2df887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce506c6dd15877eae7300665e7a9f84') in 0.010639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Scenes/Fishing/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(adcb8d17bc55a004ba59fb01919a7cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/LiberationSans SDF - Fallback.asset using Guid(adcb8d17bc55a004ba59fb01919a7cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366536fa7453db5e0ba489de5121bda8') in 0.013577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Scenes/Fishing/Fence.prefab
-  artifactKey: Guid(5e22170bb3e4e20419c9fa048fe67714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Fence.prefab using Guid(5e22170bb3e4e20419c9fa048fe67714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5fa461b2353e5594c39ceaaa4c4d17') in 0.007549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Scenes/Fishing/House2.prefab
-  artifactKey: Guid(ff5293bfae07cf746832494f001cc4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/House2.prefab using Guid(ff5293bfae07cf746832494f001cc4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64361110515ec65e414c6e44f42dbae9') in 0.008512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Scenes/Fishing/House3.prefab
-  artifactKey: Guid(e4bbced1c3e59ad48a6569b6a0745a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/House3.prefab using Guid(e4bbced1c3e59ad48a6569b6a0745a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a2b1a499e9dacb81460cbad9b9d671') in 0.008891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Scenes/Fishing/Jump--Jump.anim.fbx
-  artifactKey: Guid(7892eb68b767c7449a5017b3b65a78b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Jump--Jump.anim.fbx using Guid(7892eb68b767c7449a5017b3b65a78b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0af6735df6c8fcc34fdc7fa5d79f35') in 0.005638 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Scenes/Fishing/Vertex Channel.shadersubgraph
-  artifactKey: Guid(329acf5ff973bb74a9b6c1c9d87b5832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Vertex Channel.shadersubgraph using Guid(329acf5ff973bb74a9b6c1c9d87b5832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4114d40c85ef107f0c6fa905f7bf2d39') in 0.002059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Scenes/Fishing/Jump--InAir.anim.fbx
-  artifactKey: Guid(c69134b662014f347bde27be73a149bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Jump--InAir.anim.fbx using Guid(c69134b662014f347bde27be73a149bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5795426f1e2f1ef1ef33c751eac42d94') in 0.005309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Scenes/Fishing/BuildingWalls.mat
-  artifactKey: Guid(826bb35435b5e824eaadd85456d2f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/BuildingWalls.mat using Guid(826bb35435b5e824eaadd85456d2f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f48573518f9c6976fb6aa378a2280b2') in 0.006647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Scenes/Fishing/BuildingRoof.mat
-  artifactKey: Guid(ab20abab79e545942a0b26f5d5186aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/BuildingRoof.mat using Guid(ab20abab79e545942a0b26f5d5186aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5c3976e95cd55fedfb316e276b1095') in 0.007702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Scenes/Fishing/Skybox_Mat.mat
-  artifactKey: Guid(27229c38eb0daca4e82a84a6186b2290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Skybox_Mat.mat using Guid(27229c38eb0daca4e82a84a6186b2290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebbc02f59e745b6d03fc74399af9538') in 0.011833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Scenes/Fishing/TurtleRed.prefab
-  artifactKey: Guid(7d672b96f50f39e40a9efbdf1691f03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/TurtleRed.prefab using Guid(7d672b96f50f39e40a9efbdf1691f03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f662e4db1345ac559187231fa512beba') in 0.023746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Scenes/Fishing/BuildingWindow.mat
-  artifactKey: Guid(fbbfbbd12e0052049ab1b2d07ff8e8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/BuildingWindow.mat using Guid(fbbfbbd12e0052049ab1b2d07ff8e8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9b8a6b135964f3b267f8559e9acc39') in 0.006562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Scenes/Fishing/Rest.fbx
-  artifactKey: Guid(1873194101e01124ba17b36e4e3faf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Rest.fbx using Guid(1873194101e01124ba17b36e4e3faf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6966288484331ea9ccfa9ad9596555d') in 0.005298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Scenes/Fishing/Idle.fbx
-  artifactKey: Guid(b71b865e64d8c5d4db7f164db6313e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Idle.fbx using Guid(b71b865e64d8c5d4db7f164db6313e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8b88370497960c032d1810197243e4') in 0.003968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Scenes/Fishing/Locomotion--Run_N.anim.fbx
-  artifactKey: Guid(3b0752bdfb730ec40979c98c27a0b2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Locomotion--Run_N.anim.fbx using Guid(3b0752bdfb730ec40979c98c27a0b2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdde0853995c45c0e233bd42d08c981') in 0.004967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Scenes/Fishing/Fence.mat
-  artifactKey: Guid(c470484e632f8bb408384011f157244f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Fence.mat using Guid(c470484e632f8bb408384011f157244f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43394360308329c1ad12d70235a2f5c') in 0.006585 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Scenes/Fishing/Locomotion--Walk_N_Land.anim.fbx
-  artifactKey: Guid(e9222bb4f518f9949950bf9fd6fd28f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Locomotion--Walk_N_Land.anim.fbx using Guid(e9222bb4f518f9949950bf9fd6fd28f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7143ab37e8f35aa8c88c1c9f45e1d5') in 0.005051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Scenes/Fishing/DefaultInputActions.inputactions
-  artifactKey: Guid(4f80674daf7fc9148a5c5526899b09a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/DefaultInputActions.inputactions using Guid(4f80674daf7fc9148a5c5526899b09a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b454d77cd0fc2aedb349a0cde0bd7818') in 0.004541 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Scenes/Fishing/BuildingFoundation.mat
-  artifactKey: Guid(1737044a5ddf980418e920a8a8c11dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/BuildingFoundation.mat using Guid(1737044a5ddf980418e920a8a8c11dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c9b399164bf60e124462586a5bf6a2') in 0.006030 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Scenes/Fishing/Base_Layer.terrainlayer
-  artifactKey: Guid(f8321043a26fd27408c7dd20f42e86a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Base_Layer.terrainlayer using Guid(f8321043a26fd27408c7dd20f42e86a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784feadc84fb8b4c7f0132dfcd45272b') in 0.009895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Scenes/Fishing/Fog.shadersubgraph
-  artifactKey: Guid(3eb5bc4141e23374282227dfab3cd687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Fog.shadersubgraph using Guid(3eb5bc4141e23374282227dfab3cd687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeae78cbaaa0012fb70c52ef9217146c') in 0.002121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Scenes/Fishing/Windwaker.mat
-  artifactKey: Guid(2f2561ecba94b324db41a2de30f6d404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Windwaker.mat using Guid(2f2561ecba94b324db41a2de30f6d404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64facbd374986ee67279670da7ef0012') in 0.013083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Scenes/Fishing/Square Water.prefab
-  artifactKey: Guid(eb4598fc2e20def488815fe2a43df57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Square Water.prefab using Guid(eb4598fc2e20def488815fe2a43df57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b1bc15d6baab780368b11314816560') in 0.012725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Scenes/Fishing/GetHitLeft.fbx
-  artifactKey: Guid(c4fe2abd2ecdf174e8a91302c969c517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/GetHitLeft.fbx using Guid(c4fe2abd2ecdf174e8a91302c969c517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf12398676191979b56de95d1d72bc3') in 0.003857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Scenes/Fishing/Horizon Color.shadersubgraph
-  artifactKey: Guid(b79fd21a7ee97a44f8db40849232dd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Horizon Color.shadersubgraph using Guid(b79fd21a7ee97a44f8db40849232dd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceab1a4630e69ee6c7b12fa83925aa4e') in 0.001995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Scenes/Fishing/BuildingWood.mat
-  artifactKey: Guid(e2f29328505ab8249944a597a46bde61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/BuildingWood.mat using Guid(e2f29328505ab8249944a597a46bde61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbb1fe324e216efeac56b6e60380d54') in 0.006624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Scenes/Fishing/Water UV.shadersubgraph
-  artifactKey: Guid(267f804ff3004364a8906d63dde92301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Water UV.shadersubgraph using Guid(267f804ff3004364a8906d63dde92301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0fd394029dc10f407fa524f6d4805e') in 0.002152 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Scenes/Fishing/Perspective Divide.shadersubgraph
-  artifactKey: Guid(9a8565153822f3145ad86c54e6160b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Perspective Divide.shadersubgraph using Guid(9a8565153822f3145ad86c54e6160b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09e756a28d851dd521906ec29564653') in 0.002052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Scenes/Fishing/Indian kanoe A Details.mat
-  artifactKey: Guid(17cd727cd2f987c42a4a14294bc3dff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Indian kanoe A Details.mat using Guid(17cd727cd2f987c42a4a14294bc3dff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef2979ede5b3733aaad7301a9893d32') in 0.016404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Scenes/Fishing/Mobile Intersection Foam.shadersubgraph
-  artifactKey: Guid(49697057f2660ed429701ff28c3817dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Mobile Intersection Foam.shadersubgraph using Guid(49697057f2660ed429701ff28c3817dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9335203f1b920db9c181541fb984290a') in 0.002549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Scenes/Fishing/Stand--Idle.anim.fbx
-  artifactKey: Guid(297ac4f105b18b44e96d4f0abab85be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Stand--Idle.anim.fbx using Guid(297ac4f105b18b44e96d4f0abab85be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1de4233690717e98084c644742169f') in 0.005762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Scenes/Fishing/Handheld_normal_mild.asset
-  artifactKey: Guid(408020bbad34e0640a6ad500653d6e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Handheld_normal_mild.asset using Guid(408020bbad34e0640a6ad500653d6e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3da2fb9210952d6fefbcf7cd59232e') in 0.001992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Scenes/Fishing/Run.fbx
-  artifactKey: Guid(89ea367408e3ad244a96199e1d7d9fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Run.fbx using Guid(89ea367408e3ad244a96199e1d7d9fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0708eb0fedfb64ba0f30c3ab91c5249') in 0.004574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Scenes/Fishing/Grass_Layer.terrainlayer
-  artifactKey: Guid(02d45c89771593342b2e064b30847662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Grass_Layer.terrainlayer using Guid(02d45c89771593342b2e064b30847662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c860e246c77e268ba19a02cef1c0eb3') in 0.020844 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Scenes/Fishing/Walk.fbx
-  artifactKey: Guid(bfaf307d68e1aa74cb1a7ef8d061fa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Walk.fbx using Guid(bfaf307d68e1aa74cb1a7ef8d061fa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087336f1092296ffefd3589dfd9d70d9') in 0.006566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Scenes/Fishing/BuildingRocks.mat
-  artifactKey: Guid(ab52513c714b4fd4ba0fa7e4e57fd93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/BuildingRocks.mat using Guid(ab52513c714b4fd4ba0fa7e4e57fd93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db787f30ca7dd4b2a405a724504b774') in 0.007520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Scenes/Fishing/GetHitUp.fbx
-  artifactKey: Guid(da9882c5a1ffb5642b7b45a94bfc3755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/GetHitUp.fbx using Guid(da9882c5a1ffb5642b7b45a94bfc3755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885a4fde7f824d26601e7cc4a8b377fd') in 0.004046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Scenes/Fishing/Sand_Layer.terrainlayer
-  artifactKey: Guid(c483c86e05084f54da2b46cbf05bec82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Sand_Layer.terrainlayer using Guid(c483c86e05084f54da2b46cbf05bec82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2c5dbf4b32c76ecfb9c499700165c7') in 0.009484 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Scenes/Fishing/PP_Tree_02.prefab
-  artifactKey: Guid(87cd7440223ac204ab48bacfc80bef26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/PP_Tree_02.prefab using Guid(87cd7440223ac204ab48bacfc80bef26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b0e51a3c6ad47ca15cf0e1ee7b89b9') in 0.006908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Scenes/Fishing/Eat.fbx
-  artifactKey: Guid(1eed318e6158d4c4197819c29204be80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Eat.fbx using Guid(1eed318e6158d4c4197819c29204be80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd802644d1c17e4518d8e276cdf5013') in 0.004150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Scenes/Fishing/GetHitBack.fbx
-  artifactKey: Guid(9da5844ad8d611841a9a65a10d3804a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/GetHitBack.fbx using Guid(9da5844ad8d611841a9a65a10d3804a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdcee1cb6f894c3b3234b5adb9865d0') in 0.003801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Scenes/Fishing/ybot@Idle.fbx
-  artifactKey: Guid(8843b15d487e2b343befe44b07f2dcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/ybot@Idle.fbx using Guid(8843b15d487e2b343befe44b07f2dcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4b61ca0b64e99de65e5d5b67b7b209') in 0.005964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Scenes/Fishing/PP_Standard_Material.mat
-  artifactKey: Guid(1e12c32a3c5e4a542acca9eeba2037fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/PP_Standard_Material.mat using Guid(1e12c32a3c5e4a542acca9eeba2037fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69551c4afaf0d89f778539ce23707e53') in 0.007046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Scenes/Fishing/PP_Tree_10.prefab
-  artifactKey: Guid(cb93f194f9fe30545ab87be7cd0e67c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/PP_Tree_10.prefab using Guid(cb93f194f9fe30545ab87be7cd0e67c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809b3b2dc3577f44493b9a35ee2ad297') in 0.014073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Scenes/Fishing/House1.prefab
-  artifactKey: Guid(7fc28997dd8315446a80a0f7721e020a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/House1.prefab using Guid(7fc28997dd8315446a80a0f7721e020a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf780ce29a66f20a4c8be55951081c7') in 0.008207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Scenes/Fishing/Overlay.shadersubgraph
-  artifactKey: Guid(4721f38dc2f9554438ee396c09e4b467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Overlay.shadersubgraph using Guid(4721f38dc2f9554438ee396c09e4b467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5859197ea971b635438189acb75ed6') in 0.002256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.974036 seconds.
-  path: Assets/Scenes/Fishing/Armature.fbx
-  artifactKey: Guid(53d3e7f73a6ee6646a35c804c866c66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Armature.fbx using Guid(53d3e7f73a6ee6646a35c804c866c66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506295f87f751ac6edc382134dd3f070') in 0.103565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Scenes/Fishing/Indian kanoe A LOD0.FBX
-  artifactKey: Guid(c266cb42b9c73444895c23dc68dceefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Indian kanoe A LOD0.FBX using Guid(c266cb42b9c73444895c23dc68dceefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87d7ec346e6247ef9b5e7b0f4606e8d') in 0.027644 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Scenes/Fishing/Circular Plane.fbx
-  artifactKey: Guid(ee5037ca332948948a649c1d9625ae70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Circular Plane.fbx using Guid(ee5037ca332948948a649c1d9625ae70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba01af35c4305fe3ff088bfe1e92410e') in 0.018460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Scenes/Fishing/Indian kanoe A LOD1.FBX
-  artifactKey: Guid(e041fd4f608a77946b790a96ad1ca69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Indian kanoe A LOD1.FBX using Guid(e041fd4f608a77946b790a96ad1ca69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490b447f6f912440d9a195e5a053093f') in 0.025930 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Scenes/Fishing/House2.fbx
-  artifactKey: Guid(2089cdfd7e9558f41a0cd40fa51fd39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/House2.fbx using Guid(2089cdfd7e9558f41a0cd40fa51fd39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c8590beca7518a7c9f0d002fd29f7e') in 0.048338 seconds 
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/SharkV1.fbx
+  artifactKey: Guid(ca38d4485fce19f4aa0d3d7bdd8b6cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/SharkV1.fbx using Guid(ca38d4485fce19f4aa0d3d7bdd8b6cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b3e477e55daf90aa6be0d2bdf10b02') in 0.014652 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000171 seconds.
-  path: Assets/Scenes/Fishing/InputSystemUIInputModule@64.png
-  artifactKey: Guid(ac7945357f239894f8fc93fc8968cc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/InputSystemUIInputModule@64.png using Guid(ac7945357f239894f8fc93fc8968cc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7427d73b0fefacdb31f93c3afe77156f') in 0.015613 seconds 
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/FishV3.fbx
+  artifactKey: Guid(ae51ad94fa7d3764d957aa512d506d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/FishV3.fbx using Guid(ae51ad94fa7d3764d957aa512d506d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acab0b0f4ff855c9e2be94029f2579ca') in 0.013977 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Scenes/Fishing/Fence.fbx
-  artifactKey: Guid(f0007ae990d74eb4aa703c4d31bb2cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Fence.fbx using Guid(f0007ae990d74eb4aa703c4d31bb2cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afaaf9e4e8f0d5017d498b9ed0bafc14') in 0.034521 seconds 
+  Time since last request: 2.115619 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs
+  artifactKey: Guid(011107e2e56b7e54488ec07820f78cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs using Guid(011107e2e56b7e54488ec07820f78cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479b471ff2b39b7f816e854cd40faf0f') in 0.003456 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Scenes/Fishing/InputAction.png
-  artifactKey: Guid(dd2f0f8d3803b0f4382e4c51549fea2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/InputAction.png using Guid(dd2f0f8d3803b0f4382e4c51549fea2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c63772fd94991e8a67430add08089f') in 0.005849 seconds 
+  Time since last request: 0.279378 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/FishV1.prefab
+  artifactKey: Guid(94c015d94f6e5364e9b36b960bbe1b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/FishV1.prefab using Guid(94c015d94f6e5364e9b36b960bbe1b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5658a01f38ee72694b2d9afcfeb3f2e') in 0.009142 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Scenes/Fishing/PP_Birch_Tree_06.fbx
-  artifactKey: Guid(b887c90e24f8f1f4795484bb0df3a619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/PP_Birch_Tree_06.fbx using Guid(b887c90e24f8f1f4795484bb0df3a619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918908ab5fc82badf960b11b80a20b0d') in 0.011558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Scenes/Fishing/House3.fbx
-  artifactKey: Guid(c2acf77f61d623644b1bb8469159e17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/House3.fbx using Guid(c2acf77f61d623644b1bb8469159e17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba617688f314f6d76ab15d72858d255') in 0.126793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Scenes/Fishing/PP_Birch_Tree_05.fbx
-  artifactKey: Guid(52094dc688d5e914b8278e16b38d05e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/PP_Birch_Tree_05.fbx using Guid(52094dc688d5e914b8278e16b38d05e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b48f07977ca2c14597fa1312165fb36') in 0.010947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Scenes/Fishing/Indian kanoe A COL.FBX
-  artifactKey: Guid(232abc32dcfe972438f5b51f70c0b5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Indian kanoe A COL.FBX using Guid(232abc32dcfe972438f5b51f70c0b5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a8827c96e35d9558f5aae336ae00af') in 0.010010 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Scenes/Fishing/PP_Tree_10.fbx
-  artifactKey: Guid(c18b93ea713a798418dc1207eb0d66ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/PP_Tree_10.fbx using Guid(c18b93ea713a798418dc1207eb0d66ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb8315536ed6927b50df5efb2755d41') in 0.009480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Scenes/Fishing/cm_logo_sm.png
-  artifactKey: Guid(a8c26cff640d5ec42bcf9e18b4b90a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/cm_logo_sm.png using Guid(a8c26cff640d5ec42bcf9e18b4b90a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2081f31f0e57d42376b5a6f8b8651afc') in 0.006041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Scenes/Fishing/PP_Tree_02.fbx
-  artifactKey: Guid(a55f3bc079c39774180a42788bf5dc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/PP_Tree_02.fbx using Guid(a55f3bc079c39774180a42788bf5dc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd1c3188050b40ce90e60beb5a0e195') in 0.010207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Scenes/Fishing/Indian kanoe A LOD2.FBX
-  artifactKey: Guid(6ee3c88f08f1ac643a2e388a5062308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Indian kanoe A LOD2.FBX using Guid(6ee3c88f08f1ac643a2e388a5062308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5076d559561c530abc3e3050cfd7849d') in 0.023345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.512150 seconds.
-  path: Assets/Scenes/Fishing/Square Plane.fbx
-  artifactKey: Guid(aa26cd9a3f9daf44fbbe8bfeb2ce0337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Square Plane.fbx using Guid(aa26cd9a3f9daf44fbbe8bfeb2ce0337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b47c6c50933d1356ce8d2581d267d3') in 0.014116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Scenes/Fishing/Turtle.fbx
-  artifactKey: Guid(08a778620b305784990b8469bb709faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Turtle.fbx using Guid(08a778620b305784990b8469bb709faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c447938d1fc2a219bed5821296bfd13') in 0.025659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Scenes/Fishing/StylizedWaterURP.png
-  artifactKey: Guid(f7cf513c09ba463418f40d8af08598a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/StylizedWaterURP.png using Guid(f7cf513c09ba463418f40d8af08598a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e70f0a42dc3e2d8998bdf4bd1afecba') in 0.005840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Scenes/Fishing/TMP - Text Component Icon.psd
-  artifactKey: Guid(84c51e5992b1abf4c9a05d6c154018ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/TMP - Text Component Icon.psd using Guid(84c51e5992b1abf4c9a05d6c154018ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f701343b71858fec9c20a6de3bea3c14') in 0.019446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Scenes/Fishing/TMP - Font Asset Icon.psd
-  artifactKey: Guid(23edc6346fd74e74b93bd51ab779ea15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/TMP - Font Asset Icon.psd using Guid(23edc6346fd74e74b93bd51ab779ea15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dded08c5e86205e2205bd490e39f493') in 0.021788 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006067 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.758 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2758ms)
-		BeginReloadAssembly (151ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (2556ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (713ms)
-			ReleaseScriptCaches (7ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (1157ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (1006ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4898 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.2 MB.
-System memory in use after: 224.6 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 5784.
-Total: 1552.011000 ms (FindLiveObjects: 0.949200 ms CreateObjectMapping: 0.293700 ms MarkObjects: 1550.653400 ms  DeleteObjects: 0.113300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 842.808854 seconds.
-  path: Assets/Materials/Sand_Layer.terrainlayer
-  artifactKey: Guid(24b2f81582a7c8049a44b32f9eeba849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Sand_Layer.terrainlayer using Guid(24b2f81582a7c8049a44b32f9eeba849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48bb52e6187ecc6abf7dc820379bc81') in 0.064987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.244284 seconds.
-  path: Assets/Materials/Brown.mat
-  artifactKey: Guid(b4d087e44244a154baa41f9b4d053278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Brown.mat using Guid(b4d087e44244a154baa41f9b4d053278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c81c9aa2051d16c7f6d06960be366c4') in 0.108924 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005610 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.406 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1407ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1216ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (623ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (539ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4888 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.0 MB.
-System memory in use after: 224.4 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 5822.
-Total: 4.000200 ms (FindLiveObjects: 0.402200 ms CreateObjectMapping: 0.247900 ms MarkObjects: 3.263600 ms  DeleteObjects: 0.085600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 715.133955 seconds.
-  path: Assets/Scenes/Fishing/House1.fbx
-  artifactKey: Guid(bd4f23de9397bfb4cabe0a68deceaf39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/House1.fbx using Guid(bd4f23de9397bfb4cabe0a68deceaf39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6e24024bc1ca2ed7657fa01c6790ae') in 0.198024 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.170135 seconds.
-  path: Assets/Scenes/Fishing/Turtle_AO.tga
-  artifactKey: Guid(8949d59216970ce4f921e19a1004e643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Turtle_AO.tga using Guid(8949d59216970ce4f921e19a1004e643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa707ce6545904329b6b800b7576d95') in 0.018186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.144325 seconds.
-  path: Assets/Scenes/Fishing/Turtle_Height.tga
-  artifactKey: Guid(57ec02ef1821c3748a68041000ce63ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Turtle_Height.tga using Guid(57ec02ef1821c3748a68041000ce63ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19f0485445d5e4deaadf5a8145e35ce') in 0.021492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Scenes/Fishing/Turtle_MetallicSmoothness.tga
-  artifactKey: Guid(0cc599c98f2ae664c886d0715141d99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Turtle_MetallicSmoothness.tga using Guid(0cc599c98f2ae664c886d0715141d99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f961ea3e8d86c3f8724c5abb3db1d6') in 0.014650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Scenes/Fishing/TurtleRed_Albedo.tga
-  artifactKey: Guid(6a6da3d371c2d8e469b927404ef114e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/TurtleRed_Albedo.tga using Guid(6a6da3d371c2d8e469b927404ef114e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b5118aada229100099394036d5876d') in 0.015562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Scenes/Fishing/Turtle_Normal.tga
-  artifactKey: Guid(f5d6fdc98f18a5842a997ed81419e7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Turtle_Normal.tga using Guid(f5d6fdc98f18a5842a997ed81419e7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631081f4a51a07e953906d82489b75e3') in 0.023076 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.397377 seconds.
-  path: Assets/Scenes/Fishing/Windwaker.mat
-  artifactKey: Guid(2f2561ecba94b324db41a2de30f6d404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Windwaker.mat using Guid(2f2561ecba94b324db41a2de30f6d404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bbbb34f20734492449ee48ab7d3b7d') in 0.019404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.008971 seconds.
-  path: Assets/Scenes/Fishing/Materials
-  artifactKey: Guid(49ac3d5b42933c444935d9821ff373c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Materials using Guid(49ac3d5b42933c444935d9821ff373c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02b5e066efa49af0bf32b0a785e4172') in 0.001471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.095507 seconds.
-  path: Assets/Scenes/Fishing/Materials/TurtleMat.mat
-  artifactKey: Guid(17fe3e4cb47ad0040adce8809b7810cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Materials/TurtleMat.mat using Guid(17fe3e4cb47ad0040adce8809b7810cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a89b78e4b906e99a0da0145abcb506d') in 0.030447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.754687 seconds.
-  path: Assets/Scripts/GameManager.cs
-  artifactKey: Guid(130a8d36a5ecd7b4ebdcc03c3ced014a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameManager.cs using Guid(130a8d36a5ecd7b4ebdcc03c3ced014a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bbb54fb0a81d28036764b6f0eec308') in 0.005225 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005446 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.389 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1389ms)
-		BeginReloadAssembly (136ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1202ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (330ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (617ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (532ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4893 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 245.2 MB.
-System memory in use after: 245.6 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 5937.
-Total: 3.832200 ms (FindLiveObjects: 0.373700 ms CreateObjectMapping: 0.263900 ms MarkObjects: 3.111400 ms  DeleteObjects: 0.082400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005461 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.397 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1397ms)
-		BeginReloadAssembly (129ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1203ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (330ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (626ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (543ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4888 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 245.1 MB.
-System memory in use after: 245.5 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 5939.
-Total: 3.877400 ms (FindLiveObjects: 0.396500 ms CreateObjectMapping: 0.290100 ms MarkObjects: 3.109000 ms  DeleteObjects: 0.081200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005488 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.021 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2022ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1827ms)
-			LoadAssemblies (112ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (830ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (724ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (640ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (31ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4888 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 244.9 MB.
-System memory in use after: 245.3 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 5941.
-Total: 53.361500 ms (FindLiveObjects: 0.990200 ms CreateObjectMapping: 0.400900 ms MarkObjects: 51.803600 ms  DeleteObjects: 0.164000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1374.041452 seconds.
-  path: Assets/Scenes/Fishing.unity
-  artifactKey: Guid(7df5b0d7b971ed8488589b2cec75060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing.unity using Guid(7df5b0d7b971ed8488589b2cec75060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6362e011f8e77d0e474feaa84133b81') in 0.156698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 63.613684 seconds.
-  path: Assets/Scenes/Fishing.unity
-  artifactKey: Guid(7df5b0d7b971ed8488589b2cec75060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing.unity using Guid(7df5b0d7b971ed8488589b2cec75060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5303ebae49a848628d2043ce7483166') in 0.003458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.702157 seconds.
-  path: Assets/Scenes/Island.unity
-  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Island.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28683a1d7c29e1080b487d781803ff67') in 0.002095 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005520 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.375 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1375ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1183ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (328ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (608ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (526ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4888 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 245.1 MB.
-System memory in use after: 245.5 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 5943.
-Total: 3.692500 ms (FindLiveObjects: 0.366200 ms CreateObjectMapping: 0.238700 ms MarkObjects: 3.009500 ms  DeleteObjects: 0.077500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 163.821596 seconds.
-  path: Assets/Scenes/Island.unity
-  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Island.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0dbccf5419d47e42103b5405417f47b') in 0.024452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1265.453714 seconds.
-  path: Assets/Scenes/Fishing/Caustics 3.png
-  artifactKey: Guid(1afd8d73b6718134fb2e87a66bd0d7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Caustics 3.png using Guid(1afd8d73b6718134fb2e87a66bd0d7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ad1bc6986251cd77e4d99b03aecded') in 0.029161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Scenes/Fishing/Rock007_2K_Color.jpg
-  artifactKey: Guid(06fc946cf6ab13b4bbc04b0a2843f189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Rock007_2K_Color.jpg using Guid(06fc946cf6ab13b4bbc04b0a2843f189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7adee4f66fb4e1b41a1072c2b027ce45') in 0.051319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Scenes/Fishing/Ground027_2K_Color.jpg
-  artifactKey: Guid(0350a1e4dfbca4e4b935b3c50b959c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Ground027_2K_Color.jpg using Guid(0350a1e4dfbca4e4b935b3c50b959c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc590c9ec3cb7126803cb809275c17c2') in 0.011358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Scenes/Fishing/Indian kanoe A Body AO.png
-  artifactKey: Guid(8e90046f214c27045b5c4d60f81bee61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Indian kanoe A Body AO.png using Guid(8e90046f214c27045b5c4d60f81bee61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b845f16331914b6e58e7e93b2d334955') in 0.062660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Scenes/Fishing/Normals 1.png
-  artifactKey: Guid(0c2533491cdca8f4fbd56bbe2f6298f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Normals 1.png using Guid(0c2533491cdca8f4fbd56bbe2f6298f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5710b3125df1aa8be2a616ed02fb0d85') in 0.044643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Scenes/Fishing/Ground048_2K_NormalGL.jpg
-  artifactKey: Guid(75332edf2c7ce4142add96a5d4df5c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Ground048_2K_NormalGL.jpg using Guid(75332edf2c7ce4142add96a5d4df5c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb9e42956e99840a774d3d673048f9f') in 0.015832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Scenes/Fishing/Indian kanoe A Details AO.png
-  artifactKey: Guid(156a1efb2ebc9a44581211f40fcc0a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Indian kanoe A Details AO.png using Guid(156a1efb2ebc9a44581211f40fcc0a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9dbd902be325b34364fc6794379d37') in 0.045379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Scenes/Fishing/Female.png
-  artifactKey: Guid(e4971a679986a234b8b633a1dd4112cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Female.png using Guid(e4971a679986a234b8b633a1dd4112cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89496a42b29b6faaedb55aa9ed386432') in 0.006658 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Scenes/Fishing/Female.fbx
-  artifactKey: Guid(dcbb4974b2b48ce44a62d40ef3135cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Female.fbx using Guid(dcbb4974b2b48ce44a62d40ef3135cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c3a2f1cb080c5871604d6f2142f330') in 0.155749 seconds 
+  Time since last request: 0.000297 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/FishV4.prefab
+  artifactKey: Guid(a05072560c3476b4cb8dddf22f697392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/FishV4.prefab using Guid(a05072560c3476b4cb8dddf22f697392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05830c204c8523d4afbd4a593bff9414') in 0.009228 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000208 seconds.
-  path: Assets/Scenes/Fishing/Grass002_2K_NormalGL.jpg
-  artifactKey: Guid(e3afa512ace0fdc4c82843093dbfd8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Grass002_2K_NormalGL.jpg using Guid(e3afa512ace0fdc4c82843093dbfd8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29193599e81e17b5dec65d7a435d63b3') in 0.018840 seconds 
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/FishV2.prefab
+  artifactKey: Guid(67de17aaa6711224f80123d9b1ef8cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/FishV2.prefab using Guid(67de17aaa6711224f80123d9b1ef8cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670ea381b5b1e2764d1810b7572f6329') in 0.006534 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Scenes/Fishing/Male.fbx
-  artifactKey: Guid(b361f1f7a5065ac438ed7cf61d1f4056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Male.fbx using Guid(b361f1f7a5065ac438ed7cf61d1f4056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0d5ea9b0a105f44c2145995f987515') in 0.025267 seconds 
+  Time since last request: 0.000268 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/FishV3.prefab
+  artifactKey: Guid(de500f6b90f89bc4c87a6585b2dea01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/FishV3.prefab using Guid(de500f6b90f89bc4c87a6585b2dea01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c2d2f0d14419d4692222184f3287c7') in 0.006341 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Scenes/Fishing/Foam 5.png
-  artifactKey: Guid(415af25a453fdc24ba6e80361ef5fa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Foam 5.png using Guid(415af25a453fdc24ba6e80361ef5fa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203fb79b90e77bc4dc0a54f5fe1cb997') in 0.011412 seconds 
+  Time since last request: 0.000218 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/SharkV1.prefab
+  artifactKey: Guid(2fb93ff3c1250a74ca5f53a6bc162675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/SharkV1.prefab using Guid(2fb93ff3c1250a74ca5f53a6bc162675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4901c2cbc7c6d4ee087646b079d6bbfd') in 0.007427 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Scenes/Fishing/Indian kanoe A Body Metallic.png
-  artifactKey: Guid(e812ce090e385db498d480e67ff38813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Indian kanoe A Body Metallic.png using Guid(e812ce090e385db498d480e67ff38813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f6d6a5fa02e7367131edcb6d66a474') in 0.012923 seconds 
+  Time since last request: 4.562951 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Materials
+  artifactKey: Guid(a166dd428664ae84baf03759fe565b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Materials using Guid(a166dd428664ae84baf03759fe565b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57ae8a298a263ff0bc4611b068ae053') in 0.001513 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Scenes/Fishing/Rock008_2K_Color.jpg
-  artifactKey: Guid(36b25e8a28635974e98ef1765d8e87ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Rock008_2K_Color.jpg using Guid(36b25e8a28635974e98ef1765d8e87ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a34c3dbf63192663d66cca62949386d') in 0.007894 seconds 
+  Time since last request: 0.044028 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Materials/Main.mat
+  artifactKey: Guid(284830dd46ce77c4696ef63853c7cf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Materials/Main.mat using Guid(284830dd46ce77c4696ef63853c7cf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429cfc07dfc89d5337b7eef5b5b43bed') in 0.036559 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Scenes/Fishing/Ground039_2K_Color.jpg
-  artifactKey: Guid(50f23b812dbcfa343a441669ef6a2860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Ground039_2K_Color.jpg using Guid(50f23b812dbcfa343a441669ef6a2860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a71112d326414b2af95f91bcc228a7') in 0.008282 seconds 
+  Time since last request: 48.847742 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Texture
+  artifactKey: Guid(5cb6043b85ad32140a204703bdde283b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Texture using Guid(5cb6043b85ad32140a204703bdde283b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408fb6571ad12fd27d20e8a471246c81') in 0.001693 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Scenes/Fishing/Grass002_2K_Color.jpg
-  artifactKey: Guid(d368f5ee8cd3c9f4c92c0641e59b85a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Grass002_2K_Color.jpg using Guid(d368f5ee8cd3c9f4c92c0641e59b85a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9028034fdbf761fc277ee5be538628') in 0.007910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Scenes/Fishing/Indian kanoe A Details Normal.png
-  artifactKey: Guid(a05c572a09144274db82dde93cbb8743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Indian kanoe A Details Normal.png using Guid(a05c572a09144274db82dde93cbb8743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8f50d1351fba6577c5cf46e7079523') in 0.020075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Scenes/Fishing/Indian kanoe A Details Albedo.png
-  artifactKey: Guid(81114f16452a4c449a3c8fe0d1f6307e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Indian kanoe A Details Albedo.png using Guid(81114f16452a4c449a3c8fe0d1f6307e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998edfd77c413f3f86d7e6b4f52d6855') in 0.014016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Scenes/Fishing/Ground039_2K_NormalGL.jpg
-  artifactKey: Guid(4e754db5e707b264c8d400b971fcfd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Ground039_2K_NormalGL.jpg using Guid(4e754db5e707b264c8d400b971fcfd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd66b24623a6d1db70b09e53ab875724') in 0.011835 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Scenes/Fishing/Foam 4.png
-  artifactKey: Guid(1915945ffc81c0641ae23645c1242a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Foam 4.png using Guid(1915945ffc81c0641ae23645c1242a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf13136918ac03068e5a42d5c969da85') in 0.006958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Scenes/Fishing/Ground048_2K_Color.jpg
-  artifactKey: Guid(7ef591e3b2daac247b57bc620ada9705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Ground048_2K_Color.jpg using Guid(7ef591e3b2daac247b57bc620ada9705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e75bcb373fd08aaac933bb0452b0b8') in 0.019038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Scenes/Fishing/Rock008_2K_NormalGL.jpg
-  artifactKey: Guid(4053e6f3e0ac00e4ea88757746cb4a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Rock008_2K_NormalGL.jpg using Guid(4053e6f3e0ac00e4ea88757746cb4a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba01e84d82f325c65e1f08b364538e3') in 0.009485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Scenes/Fishing/PP_Color_Palette.png
-  artifactKey: Guid(267bee01eafc15443a93c94129a72067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/PP_Color_Palette.png using Guid(267bee01eafc15443a93c94129a72067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a46dcc77c15175eb6360181cd2c746') in 0.006111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Scenes/Fishing/Indian kanoe A Body Normal.png
-  artifactKey: Guid(a5c17bba6172bbf4f9b108bc19df8838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Indian kanoe A Body Normal.png using Guid(a5c17bba6172bbf4f9b108bc19df8838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a976521afd4a5592122b05a4b3e11c9') in 0.010119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Scenes/Fishing/Indian kanoe A Details Metallic.png
-  artifactKey: Guid(012215cbf78b357459a490346235edbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Indian kanoe A Details Metallic.png using Guid(012215cbf78b357459a490346235edbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693e2c09c774d100171204c700f68701') in 0.011953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Scenes/Fishing/Rock007_2K_NormalDX.jpg
-  artifactKey: Guid(af9227ffb85807641a4a7e600f5fa98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Rock007_2K_NormalDX.jpg using Guid(af9227ffb85807641a4a7e600f5fa98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e93e9d9ca7ec35e842b37a755486e23') in 0.010518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Scenes/Fishing/Male.png
-  artifactKey: Guid(d5291d042e89f9141b8632324f25b5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Male.png using Guid(d5291d042e89f9141b8632324f25b5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed809242c6d56ed5e05660ce798add0') in 0.006858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Scenes/Fishing/Indian kanoe A Body Albedo.png
-  artifactKey: Guid(69700f5fbc62ee64f84235048d1c905b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Indian kanoe A Body Albedo.png using Guid(69700f5fbc62ee64f84235048d1c905b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e348fb158782afbb9e4f8d7792fc783d') in 0.013634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Scenes/Fishing/Ground027_2K_NormalDX.jpg
-  artifactKey: Guid(4ec11eca7a41c324b8203c5e0de1ad54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fishing/Ground027_2K_NormalDX.jpg using Guid(4ec11eca7a41c324b8203c5e0de1ad54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be53ca5ac370ff9be473f5a4dd1d3296') in 0.009831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.518695 seconds.
-  path: Assets/Scenes/Island.unity
-  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Island.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbab547a91469d9f70cfb419e6f88ae7') in 0.005969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 536.674539 seconds.
-  path: Assets/TutorialInfo
-  artifactKey: Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo using Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5a30219286eb2a872f2f84d66d9616') in 0.001911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.047751 seconds.
-  path: Assets/TutorialInfo/Icons
-  artifactKey: Guid(8a0c9218a650547d98138cd835033977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Icons using Guid(8a0c9218a650547d98138cd835033977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877c38d75af7f9b160f6df01c0d12ba9') in 0.039646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.080795 seconds.
-  path: Assets/TutorialInfo/Icons/Help_Icon.png
-  artifactKey: Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Icons/Help_Icon.png using Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4642ec270cdd6aea4c23e860608c3b5e') in 0.022787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/TutorialInfo/Icons/UniversalIcon.png
-  artifactKey: Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Icons/UniversalIcon.png using Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0eb32269cbf1c6d169f28c61d1b5316') in 0.056880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.341347 seconds.
-  path: Assets/TutorialInfo/Scripts
-  artifactKey: Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Scripts using Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2381cffa6438b17ca19b3c642f224055') in 0.025812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.885189 seconds.
-  path: Assets/TutorialInfo/Scripts/Editor
-  artifactKey: Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Scripts/Editor using Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d9a53e681186c8abcd91760b4a6555') in 0.001958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.823241 seconds.
-  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
-  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a1c48df5455ec8f9a4e64c6766f86c') in 0.001567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.027981 seconds.
-  path: Assets/TutorialInfo/Scripts/Readme.cs
-  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43153c73d46c6cf684442b7768fcc020') in 0.013859 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006358 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.641 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1642ms)
-		BeginReloadAssembly (215ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (103ms)
-		EndReloadAssembly (1373ms)
-			LoadAssemblies (113ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (369ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (639ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (549ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (31ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4917 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 354.7 MB.
-System memory in use after: 355.1 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 6417.
-Total: 4.324500 ms (FindLiveObjects: 0.451600 ms CreateObjectMapping: 0.254800 ms MarkObjects: 3.535500 ms  DeleteObjects: 0.082000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.139564 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Texture/PolyPackFish.png
+  artifactKey: Guid(046f0687a8e053648949194a16f36c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Texture/PolyPackFish.png using Guid(046f0687a8e053648949194a16f36c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a07eaec49db093bb1d85ff0dabd7de') in 0.026451 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
