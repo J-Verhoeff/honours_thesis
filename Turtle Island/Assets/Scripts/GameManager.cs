@@ -1,4 +1,13 @@
+/**
+ * Turtle Island
+ * Ontario Tech Honours Thesis 2022
+ * Author: Joshua Verhoeff
+ * Supervisor: Dr. Randy Fortier
+ * 
+ * This script is the game manager to handle general game logic
+ */
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class GameManager : MonoBehaviour {
@@ -7,63 +16,35 @@ public class GameManager : MonoBehaviour {
 
     // UI elements
     [Header("UI Elements")]
-    [SerializeField] private GameObject chatBox;
-    [SerializeField] private TextMeshProUGUI chat;
-    [SerializeField] private GameObject buttons;
-    [SerializeField] private TextMeshProUGUI prompt;
-
-    public GameObject currentNPC = null;
+    [SerializeField] private TextMeshProUGUI prompt; // UI element for the player prompt
 
 
     private void Start() {
-        buttons.SetActive(false);
-        chatBox.SetActive(false);
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked; // lock cursor on startup
         hidePrompt();
     }
 
-    public void displayChatbox(string textToDisplay) {
-        chatBox.SetActive(true);
-        chat.text = textToDisplay;
-    }
-
-    public void hideChatBox() {
-        chat.text = "";
-        chatBox.SetActive(false);
-        currentNPC = null;
-    }
-
-    public void updateChatbox(string textToDisplay) {
-        if (chatBox.activeInHierarchy) {
-            chat.text = textToDisplay;
-        }
-    }
-
-    public void hideButtons() {
-        buttons.SetActive(false);
-    }
-
-    public void showButtons() {
-        buttons.SetActive(true);
-    }
-
+    // Set the prompt to a passed string
     public void setPrompt(string textToDisplay) {
         prompt.text = textToDisplay;
     }
 
+    // Hide the prompt
     public void hidePrompt() {
         prompt.text = "";
     }
 
-    public void Yes() {
-        currentNPC.GetComponent<NPC>().StartActivity();
+    // Load scene
+    public void loadScene(string sceneName) {
+        if (!SceneManager.GetSceneByName(sceneName).isLoaded) {
+            SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
+        }
     }
 
-    public void No() {
-        currentNPC.GetComponent<NPC>().CancelActivity();
-    }
-
-    public void HowTo() {
-        currentNPC.GetComponent<NPC>().DisplayActivityInstructions();
+    // Unload a scene
+    public void UnloadScene(string sceneName) {
+        if(SceneManager.GetSceneByName(sceneName).isLoaded) {
+            SceneManager.UnloadSceneAsync(sceneName);
+        }
     }
 }

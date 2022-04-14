@@ -1,24 +1,20 @@
+/**
+ * Turtle Island
+ * Ontario Tech Honours Thesis 2022
+ * Author: Joshua Verhoeff
+ * Supervisor: Dr. Randy Fortier
+ * 
+ * This script is forperforming the fishing minigame
+ */
+
 using UnityEngine;
 
 public class Fishing : MonoBehaviour {
-    [Header("Game Objects")]
-    [SerializeField] GameObject boat;
-    [SerializeField] GameObject spear;
-    [SerializeField] GameObject paddle;
-    
-
     private GameManager manager;
-    private Animator animator;
-    private bool isRowing = false;
-
+    private GameObject player;
 
     private void Awake() {
         manager = GameObject.Find("GameManager").GetComponent<GameManager>();
-        animator = gameObject.GetComponent<Animator>();
-    }
-
-    private void Start() {
-        spear.SetActive(false);
-        animator.SetBool("Rowing", true);
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 }

@@ -1,7 +1,16 @@
+/**
+ * Turtle Island
+ * Ontario Tech Honours Thesis 2022
+ * Author: Joshua Verhoeff
+ * Supervisor: Dr. Randy Fortier
+ * 
+ * This script handles the dialogue between the player and a NPC
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using DialogueEditor;
 
 public class NPC : MonoBehaviour {
     [Header("General Settings")]
@@ -11,73 +20,54 @@ public class NPC : MonoBehaviour {
 
     [Header("NPC Settings")]
     [SerializeField] private GameObject player;
-    [SerializeField] private List<string> dialogue;
-    [SerializeField] private bool playerSelection;
+    [SerializeField] private NPCConversation conversation;
+    [SerializeField] private string NPCPrompt = "Press Q to talk";
 
     [Header("Chat Settings")]
     [SerializeField] private float chatDelay = 2f;
     
-    private int currentIndex = 0;
-    private bool isChatting = false;
-    private bool chatPause = false;   
-
-    private void Update() {
-        if (isChatting && playerInteract.interact && !chatPause) {
-            if (currentIndex < dialogue.Count - 1) {
-                currentIndex++;
-                manager.updateChatbox(dialogue[currentIndex]);
-                //Debug.Log("Update");
-                StartCoroutine("ChatDelay", chatDelay);
-            } else {
-                StartCoroutine("PlayerChoice", chatDelay);
-            }
-        }
-    }
-
     private void OnTriggerStay(Collider other) {
+        // If player is close by, display the prompt
         if (other.CompareTag("Player")) {
-            manager.setPrompt("Press Q to talk");
-            if (playerInteract.interact && !isChatting && !chatPause) {
-                manager.hideButtons();
-                manager.displayChatbox(dialogue[currentIndex]);
-                manager.currentNPC = gameObject;
-                isChatting = true;
-                //Debug.Log("Trigger");
-                StartCoroutine("ChatDelay", chatDelay);
+            manager.setPrompt(NPCPrompt);
+            // Check for interact button press, and then start the conversation
+            if(playerInteract.interact && !ConversationManager.Instance.IsConversationActive) {
+                ConversationManager.Instance.StartConversation(conversation);
             }
         }
     }
 
+    // Close a conversation if the player moves away from the NPC
     private void OnTriggerExit(Collider other) {
         if (other.CompareTag("Player")) {
-            currentIndex = 0;            
-            manager.hideChatBox();
-            isChatting = false;
             manager.hidePrompt();
+            if(ConversationManager.Instance.IsConversationActive) {
+                ConversationManager.Instance.EndConversation();
+            }
         }
     }
 
-    IEnumerator ChatDelay(float delay) {
-        chatPause = true;
-        //Debug.Log("Delay");
-        yield return new WaitForSeconds(delay);
-        chatPause = false;
+    // Callback functions for when a conversation starts and ends
+    private void ConversationStart() {
+        // lock camera and unlock nouse
+        Cursor.lockState = CursorLockMode.None;
+        player.GetComponent<StarterAssets.ThirdPersonController>().LockCameraPosition = true;
     }
 
-    IEnumerator PlayerChoice(float delay) {
-        currentIndex = 0;
-        chatPause = true;
-        if(!playerSelection) {
-            manager.hideChatBox();
-            isChatting = false;
-        } else {
-            Cursor.lockState = CursorLockMode.None;
-            player.GetComponent<StarterAssets.ThirdPersonController>().LockCameraPosition = true;
-            manager.showButtons();
-        }
+    private void ConversationEnd() {
+        // unlock camera and lock mouse
+        Cursor.lockState = CursorLockMode.Locked;
+        player.GetComponent<StarterAssets.ThirdPersonController>().LockCameraPosition = false;
+    }
 
-        yield return new WaitForSeconds(delay);
-        chatPause = false;
+    private void OnEnable() {
+        ConversationManager.OnConversationStarted += ConversationStart;
+        ConversationManager.OnConversationEnded += ConversationEnd;
+    }
+
+    private void OnDisable() {
+        ConversationManager.OnConversationStarted -= ConversationStart;
+        ConversationManager.OnConversationEnded -= ConversationEnd;
     }
 
     public void StartActivity() {
@@ -91,8 +81,6 @@ public class NPC : MonoBehaviour {
     public void CancelActivity() {
         //Debug.Log("Canceled Activity");
         Cursor.lockState = CursorLockMode.Locked;
-        manager.hideChatBox();
-        isChatting = false;
         player.GetComponent<StarterAssets.ThirdPersonController>().LockCameraPosition = false;
         StartCoroutine("ChatDelay", chatDelay);
     }
