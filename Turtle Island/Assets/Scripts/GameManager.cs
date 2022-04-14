@@ -16,15 +16,16 @@ public class GameManager : MonoBehaviour {
 
     // UI elements
     [Header("UI Elements")]
-    [SerializeField] private TextMeshProUGUI prompt; // UI element for the player prompt
+    [SerializeField] private TextMeshProUGUI prompt;
+
+    public GameObject currentNPC = null;
 
 
     private void Start() {
-        Cursor.lockState = CursorLockMode.Locked; // lock cursor on startup
+        Cursor.lockState = CursorLockMode.Locked;
         hidePrompt();
     }
 
-    // Set the prompt to a passed string
     public void setPrompt(string textToDisplay) {
         prompt.text = textToDisplay;
     }

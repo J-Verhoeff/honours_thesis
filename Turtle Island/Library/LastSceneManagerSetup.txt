@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Gameplay.unity
+=======
+- path: Assets/Scenes/Island.unity
+>>>>>>> ae2db507ee19d232243ddddc0d9fa4533aceac6f
   isLoaded: 1
   isActive: 1
   isSubScene: 0

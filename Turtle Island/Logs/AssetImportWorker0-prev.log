@@ -15,11 +15,19 @@ D:/Honours_Thesis/honours_thesis/Turtle Island
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 54400
 Successfully changed project path to: D:/Honours_Thesis/honours_thesis/Turtle Island
 D:/Honours_Thesis/honours_thesis/Turtle Island
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 110.36 ms, found 3 plugins.
+=======
+59110
+Successfully changed project path to: D:/Honours_Thesis/honours_thesis/Turtle Island
+D:/Honours_Thesis/honours_thesis/Turtle Island
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 110.77 ms, found 3 plugins.
+>>>>>>> ae2db507ee19d232243ddddc0d9fa4533aceac6f
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.26f1 (6f076387c01d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,6 +43,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -47,12 +56,27 @@ Mono: successfully reloaded assembly
 - Completed reload, in  1.122 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1122ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002009 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 107.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1176ms)
+>>>>>>> ae2db507ee19d232243ddddc0d9fa4533aceac6f
 		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (426ms)
 			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -67,13 +91,33 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (98ms)
 				ProcessInitializeOnLoadMethodAttributes (23ms)
+=======
+		EndReloadAssembly (440ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (135ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+>>>>>>> ae2db507ee19d232243ddddc0d9fa4533aceac6f
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.005354 seconds.
+=======
+Registered in 0.005240 seconds.
+>>>>>>> ae2db507ee19d232243ddddc0d9fa4533aceac6f
 Begin MonoManager ReloadAssembly
 Symbol file data-0000024A558AA140 doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -96,6 +140,7 @@ Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Honours_Thesis\honours_thesis\Turtle Island\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 111.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -103,11 +148,21 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1733ms)
 		BeginReloadAssembly (133ms)
+=======
+Refreshing native plugins compatible for Editor in 112.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.087 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2087ms)
+		BeginReloadAssembly (132ms)
+>>>>>>> ae2db507ee19d232243ddddc0d9fa4533aceac6f
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
+<<<<<<< HEAD
 		EndReloadAssembly (1549ms)
 			LoadAssemblies (306ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -121,10 +176,26 @@ Domain Reload Profiling:
 				RefreshPlugins (111ms)
 				BeforeProcessingInitializeOnLoad (84ms)
 				ProcessInitializeOnLoadAttributes (575ms)
+=======
+		EndReloadAssembly (1903ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (704ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (553ms)
+>>>>>>> ae2db507ee19d232243ddddc0d9fa4533aceac6f
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
+<<<<<<< HEAD
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
@@ -138,6 +209,21 @@ System memory in use after: 210.1 MB.
 
 Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 5526.
 Total: 3.550600 ms (FindLiveObjects: 0.362200 ms CreateObjectMapping: 0.277600 ms MarkObjects: 2.812900 ms  DeleteObjects: 0.097000 ms)
+=======
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5063 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 209.8 MB.
+System memory in use after: 210.1 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 5526.
+Total: 3.437500 ms (FindLiveObjects: 0.333800 ms CreateObjectMapping: 0.225900 ms MarkObjects: 2.782000 ms  DeleteObjects: 0.095000 ms)
+>>>>>>> ae2db507ee19d232243ddddc0d9fa4533aceac6f
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -149,4 +235,114 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
+=======
+========================================================================
+Received Import Request.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/FishV1.fbx
+  artifactKey: Guid(38f74cd884cda8242b4fdc167c4962f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/FishV1.fbx using Guid(38f74cd884cda8242b4fdc167c4962f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654ec0747f8544cf851a92d335421c3d') in 0.229609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Asset_Store/Alstra Infinite
+  artifactKey: Guid(38ddc16d4f461544da2f473d3e9f33c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite using Guid(38ddc16d4f461544da2f473d3e9f33c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43c749a80373118973250477cf779a2') in 0.001548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/FishV2.fbx
+  artifactKey: Guid(a8fd0d08c30426d4c978a4998752cf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/FishV2.fbx using Guid(a8fd0d08c30426d4c978a4998752cf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd319ef696e4f3b20749a3f2372a5b28') in 0.063581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack
+  artifactKey: Guid(63843d432823297479039cac99914d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack using Guid(63843d432823297479039cac99914d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4288ae4867494cc0da8a121a56e96ab8') in 0.001843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/FishV4.fbx
+  artifactKey: Guid(ea93ead513f04c9478f78e3f40ba5b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/FishV4.fbx using Guid(ea93ead513f04c9478f78e3f40ba5b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4461da8b5dc1924cc9bf154dfb75ccd0') in 0.018415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models
+  artifactKey: Guid(4d073f0bbc4f46d47a6ceba6153c07dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models using Guid(4d073f0bbc4f46d47a6ceba6153c07dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb68476f0a3abcb3ff5c5d52b5aebd05') in 0.015667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/SharkV1.fbx
+  artifactKey: Guid(ca38d4485fce19f4aa0d3d7bdd8b6cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/SharkV1.fbx using Guid(ca38d4485fce19f4aa0d3d7bdd8b6cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b3e477e55daf90aa6be0d2bdf10b02') in 0.014652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/FishV3.fbx
+  artifactKey: Guid(ae51ad94fa7d3764d957aa512d506d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Models/FishV3.fbx using Guid(ae51ad94fa7d3764d957aa512d506d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acab0b0f4ff855c9e2be94029f2579ca') in 0.013977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.115619 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs
+  artifactKey: Guid(011107e2e56b7e54488ec07820f78cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs using Guid(011107e2e56b7e54488ec07820f78cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479b471ff2b39b7f816e854cd40faf0f') in 0.003456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.279378 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/FishV1.prefab
+  artifactKey: Guid(94c015d94f6e5364e9b36b960bbe1b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/FishV1.prefab using Guid(94c015d94f6e5364e9b36b960bbe1b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5658a01f38ee72694b2d9afcfeb3f2e') in 0.009142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/FishV4.prefab
+  artifactKey: Guid(a05072560c3476b4cb8dddf22f697392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/FishV4.prefab using Guid(a05072560c3476b4cb8dddf22f697392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05830c204c8523d4afbd4a593bff9414') in 0.009228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/FishV2.prefab
+  artifactKey: Guid(67de17aaa6711224f80123d9b1ef8cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/FishV2.prefab using Guid(67de17aaa6711224f80123d9b1ef8cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670ea381b5b1e2764d1810b7572f6329') in 0.006534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/FishV3.prefab
+  artifactKey: Guid(de500f6b90f89bc4c87a6585b2dea01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/FishV3.prefab using Guid(de500f6b90f89bc4c87a6585b2dea01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c2d2f0d14419d4692222184f3287c7') in 0.006341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/SharkV1.prefab
+  artifactKey: Guid(2fb93ff3c1250a74ca5f53a6bc162675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Prefabs/SharkV1.prefab using Guid(2fb93ff3c1250a74ca5f53a6bc162675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4901c2cbc7c6d4ee087646b079d6bbfd') in 0.007427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.562951 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Materials
+  artifactKey: Guid(a166dd428664ae84baf03759fe565b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Materials using Guid(a166dd428664ae84baf03759fe565b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57ae8a298a263ff0bc4611b068ae053') in 0.001513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044028 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Materials/Main.mat
+  artifactKey: Guid(284830dd46ce77c4696ef63853c7cf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Materials/Main.mat using Guid(284830dd46ce77c4696ef63853c7cf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429cfc07dfc89d5337b7eef5b5b43bed') in 0.036559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.847742 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Texture
+  artifactKey: Guid(5cb6043b85ad32140a204703bdde283b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Texture using Guid(5cb6043b85ad32140a204703bdde283b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408fb6571ad12fd27d20e8a471246c81') in 0.001693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.139564 seconds.
+  path: Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Texture/PolyPackFish.png
+  artifactKey: Guid(046f0687a8e053648949194a16f36c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Store/Alstra Infinite/Fish - PolyPack/Texture/PolyPackFish.png using Guid(046f0687a8e053648949194a16f36c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a07eaec49db093bb1d85ff0dabd7de') in 0.026451 seconds 
+>>>>>>> ae2db507ee19d232243ddddc0d9fa4533aceac6f
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

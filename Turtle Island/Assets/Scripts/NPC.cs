@@ -32,6 +32,11 @@ public class NPC : MonoBehaviour {
             manager.setPrompt(NPCPrompt);
             // Check for interact button press, and then start the conversation
             if(playerInteract.interact && !ConversationManager.Instance.IsConversationActive) {
+            manager.setPrompt("Press Q to talk");
+            if (playerInteract.interact) {
+                // Debug.Log("Trigger");
+                Cursor.lockState = CursorLockMode.None;
+                player.GetComponent<StarterAssets.ThirdPersonController>().LockCameraPosition = true;
                 ConversationManager.Instance.StartConversation(conversation);
             }
         }
@@ -79,7 +84,7 @@ public class NPC : MonoBehaviour {
     }
 
     public void CancelActivity() {
-        //Debug.Log("Canceled Activity");
+        Debug.Log("Canceled Activity");
         Cursor.lockState = CursorLockMode.Locked;
         player.GetComponent<StarterAssets.ThirdPersonController>().LockCameraPosition = false;
         StartCoroutine("ChatDelay", chatDelay);
