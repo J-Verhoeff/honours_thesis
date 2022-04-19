@@ -377,6 +377,7 @@
 "Assets/Asset_Store/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs"
 "Assets/Asset_Store/Stylized Water For URP/Demos/Buoyancy/BuoyantObject.cs"
 "Assets/Asset_Store/Stylized Water For URP/Demos/Buoyancy/GerstnerWaveDisplacement.cs"
+"Assets/Fish.cs"
 "Assets/Scripts/Fishing.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Interact.cs"

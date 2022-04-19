@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 2469199303159883398}
   - component: {fileID: 405514074507203148}
   - component: {fileID: 2698599783777480253}
+  - component: {fileID: 9220503302918937663}
+  - component: {fileID: 3708327828716552258}
   m_Layer: 0
   m_Name: FishV3
   m_TagString: Untagged
@@ -52,10 +54,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,6 +84,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &2698599783777480253
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -94,3 +99,29 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7834934524071737294, guid: ae51ad94fa7d3764d957aa512d506d00, type: 3}
+--- !u!136 &9220503302918937663
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2206852426022253465}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.10033582
+  m_Height: 0.9506095
+  m_Direction: 0
+  m_Center: {x: 0.06358871, y: -0.037173897, z: -0.000021740794}
+--- !u!114 &3708327828716552258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2206852426022253465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e275f98762a511e4e86f427107cd6d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
