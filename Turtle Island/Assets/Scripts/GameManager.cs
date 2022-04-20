@@ -24,11 +24,14 @@ public class GameManager : MonoBehaviour {
     [SerializeField] private TextMeshProUGUI prompt;
     [SerializeField] private GameObject loadingScreen;
     [SerializeField] private Image progressBar;
+    [SerializeField] private TextMeshProUGUI progressText;
+    [SerializeField] private TextMeshProUGUI helpText;
 
     [Header("Game Objects")]
     [SerializeField] private GameObject player;
     [SerializeField] private CinemachineVirtualCamera playerCamera;
     [SerializeField] private GameObject spear;
+    [SerializeField] private GameObject pickups;
 
     private float playerMoveSpeed;
 
@@ -41,6 +44,9 @@ public class GameManager : MonoBehaviour {
         hidePrompt();
         DisableSpear();
         loadingScreen.SetActive(false);
+        SetHelpText("");
+        SetProgressText("");
+        HidePickups();
     }
 
     public void setPrompt(string textToDisplay) {
@@ -131,5 +137,22 @@ public class GameManager : MonoBehaviour {
         spear.SetActive(false);
     }
 
+    // set the progress text
+    public void SetProgressText(string text) {
+        progressText.text = text;
+    }
 
+    // set help Text
+    public void SetHelpText(string text) {
+        helpText.text = text;
+    }
+
+    // Show and hide pickups
+    public void ShowPickups() {
+        pickups.SetActive(true);
+    }
+
+    public void HidePickups() {
+        pickups.SetActive(false);
+    }
 }

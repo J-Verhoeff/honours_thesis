@@ -17,6 +17,7 @@ public class Interact : MonoBehaviour {
     public bool interact;
     public bool convoNext;
     public bool convoPrev;
+    public bool fire;
 
     // Functions to get input for the interact button
     public void InteractInput(bool newInteractState) {
@@ -38,6 +39,14 @@ public class Interact : MonoBehaviour {
     }
     public void OnConvoPrev(InputValue value) {
         ConvoPrevInput(value.isPressed);
+    }
+
+    // Functions for trigering the fire button
+    public void FireInput(bool newFireState) {
+        fire = newFireState;
+    }
+    public void OnFire(InputValue value) {
+        FireInput(value.isPressed);
     }
 
     private void Update() {
