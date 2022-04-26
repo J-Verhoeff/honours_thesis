@@ -62,12 +62,26 @@ public class Fishing : MonoBehaviour {
             SpawnFish();            
         }
 
+        // Return if Q is pressed
+        if(player.GetComponent<Interact>().interact) {
+            Leave();
+        }
+
+        // Detect when a fish is hit by the spear
+        RaycastHit hit;
+        Vector3 mousePosition = player.GetComponent<StarterAssets.StarterAssetsInputs>().look;
+        if(Physics.Raycast(mousePosition, Vector3.forward, out hit, spearRange, fishLayer)) {
+            Debug.Log("Hit");
+            Destroy(hit.collider.gameObject);
+            CatchFish();
+        }
+
         // Code to cheat for demo
-        if(player.GetComponent<Interact>().interact && currently_spawned != 0 && canInput) {
+       /* if(player.GetComponent<Interact>().interact && currently_spawned != 0 && canInput) {
             CatchFish();
             Destroy(GameObject.FindGameObjectWithTag("Fish"));
             StartCoroutine(WaitForSpawn());
-        }
+        }*/
     }
 
     // Spawn a fish
@@ -80,6 +94,11 @@ public class Fishing : MonoBehaviour {
     private void SetCursor() {
         Cursor.lockState = CursorLockMode.None;
         Cursor.SetCursor(cursorTexture, hotSpot, CursorMode.Auto);
+    }
+
+    private void ResetCursor() {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
     }
 
     // Function to hide player model for testing
@@ -114,5 +133,16 @@ public class Fishing : MonoBehaviour {
         canInput = false;
         yield return new WaitForSeconds(2);
         canInput = true;
+    }
+
+    // Function to return to the main scene
+    private void Leave() {
+        manager.DisableSpear();
+        ShowPlayer();
+        manager.ThirdPersonCamera();
+        player.transform.position = returnLocation.position;
+        manager.UnLockPlayerPosition();
+        ResetCursor();
+        manager.UnloadMinigame("Fishing");
     }
 }

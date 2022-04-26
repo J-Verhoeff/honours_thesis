@@ -379,6 +379,7 @@
 "Assets/Asset_Store/Stylized Water For URP/Demos/Buoyancy/GerstnerWaveDisplacement.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Menus/MainMenu.cs"
+"Assets/Scripts/Menus/PauseMenu.cs"
 "Assets/Scripts/Minigames/Crafting/Pickup.cs"
 "Assets/Scripts/Minigames/Fishing/Fish.cs"
 "Assets/Scripts/Minigames/Fishing/Fishing.cs"

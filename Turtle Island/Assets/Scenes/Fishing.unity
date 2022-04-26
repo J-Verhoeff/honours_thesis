@@ -243,7 +243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   standingLocation: {fileID: 719198570}
-  returnLocation: {fileID: 0}
+  returnLocation: {fileID: 1557857611}
   waypoints:
   - {fileID: 2017772162}
   - {fileID: 515964292}

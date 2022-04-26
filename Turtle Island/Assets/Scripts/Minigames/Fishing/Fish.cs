@@ -43,11 +43,10 @@ public class Fish : MonoBehaviour {
         transform.Rotate(0f, 90f, 0f);
     }
 
-    private void OnMouseOver() {
-        Debug.Log("Here");
+    /*private void OnMouseOver() {
         if(manager.GetAction()) {
             manager.CatchFish();
             Destroy(gameObject);
         }
-    }
+    }*/
 }

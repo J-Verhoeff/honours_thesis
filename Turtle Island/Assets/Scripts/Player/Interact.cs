@@ -18,6 +18,15 @@ public class Interact : MonoBehaviour {
     public bool convoNext; // Conversation next for controller input
     public bool convoPrev; // Conversation previous for controller input
     public bool fire; // Fire key used for minigames
+    public bool pause; // variable to show pause state
+
+    // Functions to get input for the pause button
+    public void PauseInput(bool newPauseState) {
+        pause = newPauseState;
+    }
+    public void OnPause(InputValue value) {
+        PauseInput(value.isPressed);
+    }
 
     // Functions to get input for the interact button
     public void InteractInput(bool newInteractState) {
