@@ -363,7 +363,6 @@
 "Assets/Asset_Store/StarterAssets/Editor/ScriptingDefineUtils.cs"
 "Assets/Asset_Store/StarterAssets/Editor/StarterAssetsDeployMenu.cs"
 "Assets/Asset_Store/StarterAssets/Editor/ThirdPersonStarterAssetsDeployMenu.cs"
-"Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
 -langversion:8.0
 
 /deterministic
